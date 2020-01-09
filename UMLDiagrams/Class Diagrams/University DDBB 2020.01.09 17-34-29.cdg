@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="University DDBB">
+  <ClassDiagramComponents>
+    <Class name="ConnectionMySQL" package="uddbb" visibility="public" xPosition="79.0" yPosition="35.0">
+      <Fields>
+        <Field name="URL" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="USERNAME" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="PASSWORD" type="String" visibility="public" isStatic="true" isFinal="true"/>
+        <Field name="connection" type="Connection" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Main" package="uddbb" visibility="public" xPosition="342.0" yPosition="35.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
